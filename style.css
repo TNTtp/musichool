@@ -31,7 +31,6 @@ body{
   overflow: hidden;
   position: relative;
   border-radius: 15px;
-  background: var(--white);
   box-shadow: 0px 6px 15px var(--lightbshadow);
 }
 .wrapper i{
@@ -87,7 +86,6 @@ body{
   height: 6px;
   width: 100%;
   border-radius: 50px;
-  background: #f0f0f0;
   cursor: pointer;
 }
 .progress-area .progress-bar{
@@ -95,7 +93,6 @@ body{
   width: 0%;
   position: relative;
   border-radius: inherit;
-  background: linear-gradient(90deg, var(--pink) 0%, var(--violet) 100%);
 }
 .progress-bar::before{
   content: "";
@@ -109,7 +106,6 @@ body{
   opacity: 0;
   pointer-events: none;
   transform: translateY(-50%);
-  background: inherit;
   transition: opacity 0.2s ease;
 }
 .progress-area:hover .progress-bar::before{
@@ -129,9 +125,6 @@ body{
 .controls i{
   font-size: 28px;
   user-select: none;
-  background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .controls i:nth-child(2),
@@ -152,7 +145,6 @@ body{
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: linear-gradient(var(--white) 0%, var(--darkwhite) 100%);
   box-shadow: 0px 0px 5px var(--pink);
 }
 .play-pause::before{
@@ -161,23 +153,18 @@ body{
   height: 43px;
   width: 43px;
   border-radius: inherit;
-  background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
 }
 .play-pause i{
   height: 43px;
   width: 43px;
   line-height: 43px;
   text-align: center;
-  background: inherit;
-  background-clip: text;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
 }
 
 .music-list{
   position: absolute;
-  background: var(--white);
   width: 100%;
   left: 0;
   bottom: -55%;
